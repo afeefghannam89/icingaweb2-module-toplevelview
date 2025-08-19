@@ -24,10 +24,13 @@ jobs:
       - name: Build RPM package
         run: nfpm package --config nfpm.yaml --packager rpm
 
+      - name: Detect rpm filename
+        id: detect
+        run: echo "RPM_FILE=$(ls *.rpm)" >> $GITHUB_ENV
+
       - name: Upload RPM artifact
         uses: actions/upload-artifact@v4
         with:
-          name: rpm-package
-          path: |
-            **/*.rpm
+          name: ${{ env.RPM_FILE }}
+          path: ${{ env.RPM_FILE }}
           retention-days: 7
