@@ -19,7 +19,7 @@ contents:
       mode: 755
 
   - src: library
-    dst: /usr/share/icingaweb2/modules/ingdiba/library
+    dst: /usr/share/icingaweb2/modules/toplevelview/library
     file_info:
       mode: 755
 
@@ -29,41 +29,41 @@ contents:
       mode: 755
 
   - src: module.info
-    dst: /usr/share/icingaweb2/modules/ingdiba/module.info
+    dst: /usr/share/icingaweb2/modules/toplevelview/module.info
     file_info:
       mode: 0644
 
   - src: configuration.php
-    dst: /usr/share/icingaweb2/modules/ingdiba/configuration.php
+    dst: /usr/share/icingaweb2/modules/toplevelview/configuration.php
     file_info:
       mode: 0644
 
   - src: doc
-    dst: /usr/share/icingaweb2/modules/ingdiba/doc
+    dst: /usr/share/icingaweb2/modules/toplevelview/doc
     file_info:
       mode: 755
 
   - src: README.md
-    dst: /usr/share/icingaweb2/modules/ingdiba/README.md
+    dst: /usr/share/icingaweb2/modules/toplevelview/README.md
     file_info:
       mode: 0644
 
   - src: CHANGELOG.md
-    dst: /usr/share/icingaweb2/modules/ingdiba/CHANGELOG.md
+    dst: /usr/share/icingaweb2/modules/toplevelview/CHANGELOG.md
     file_info:
       mode: 0644
 
   - src: COPYING
-    dst: /usr/share/icingaweb2/modules/ingdiba/COPYING
+    dst: /usr/share/icingaweb2/modules/toplevelview/COPYING
     file_info:
       mode: 0644
 
   - src: AUTHORS
-    dst: /usr/share/icingaweb2/modules/ingdiba/AUTHORS
+    dst: /usr/share/icingaweb2/modules/toplevelview/AUTHORS
     file_info:
       mode: 0644
 
   - src: SECURITY.md
-    dst: /usr/share/icingaweb2/modules/ingdiba/SECURITY.md
+    dst: /usr/share/icingaweb2/modules/toplevelview/SECURITY.md
     file_info:
       mode: 0644
