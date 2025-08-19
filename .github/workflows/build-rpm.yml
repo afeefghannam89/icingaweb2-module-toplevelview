@@ -2,9 +2,12 @@ name: Build RPM
 
 on:
   push:
-    branches: [ main ]
+    branches:
+      - *
   pull_request:
-  workflow_dispatch:
+    branches:
+      - main
+      - release/*
 
 jobs:
   build-rpm:
