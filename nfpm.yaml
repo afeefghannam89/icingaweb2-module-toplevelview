@@ -1,0 +1,69 @@
+name: "icingaweb2-module-toplevelview"
+arch: "all"
+platform: "linux"
+version: "1.0.0"
+release: 0
+section: "default"
+priority: "extra"
+depends: []
+maintainer: "NETWAYS <info@netways.de>"
+description: |
+  Icinga Web module to import data from servicenow
+homepage: "https://git.netways.de/nps/c/ing-diba/icingaweb2-module-toplevelview"
+license: ""
+
+contents:
+  - src: application
+    dst: /usr/share/icingaweb2/modules/toplevelview/application
+    file_info:
+      mode: 755
+
+  - src: library
+    dst: /usr/share/icingaweb2/modules/ingdiba/library
+    file_info:
+      mode: 755
+
+  - src: public
+    dst: /usr/share/icingaweb2/modules/toplevelview/public
+    file_info:
+      mode: 755
+
+  - src: module.info
+    dst: /usr/share/icingaweb2/modules/ingdiba/module.info
+    file_info:
+      mode: 0644
+
+  - src: configuration.php
+    dst: /usr/share/icingaweb2/modules/ingdiba/configuration.php
+    file_info:
+      mode: 0644
+
+  - src: doc
+    dst: /usr/share/icingaweb2/modules/ingdiba/doc
+    file_info:
+      mode: 755
+
+  - src: README.md
+    dst: /usr/share/icingaweb2/modules/ingdiba/README.md
+    file_info:
+      mode: 0644
+
+  - src: CHANGELOG.md
+    dst: /usr/share/icingaweb2/modules/ingdiba/CHANGELOG.md
+    file_info:
+      mode: 0644
+
+  - src: COPYING
+    dst: /usr/share/icingaweb2/modules/ingdiba/COPYING
+    file_info:
+      mode: 0644
+
+  - src: AUTHORS
+    dst: /usr/share/icingaweb2/modules/ingdiba/AUTHORS
+    file_info:
+      mode: 0644
+
+  - src: SECURITY.md
+    dst: /usr/share/icingaweb2/modules/ingdiba/SECURITY.md
+    file_info:
+      mode: 0644
